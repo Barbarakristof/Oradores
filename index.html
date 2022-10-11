@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+   <header>
+    
+    <nav class= "nav" style="background-color: rgb(69, 67, 67)">
+     
+       <ul class="nav justify-content-end" class= "nav justify-content-center" >
+        <div> <img src="./imagenes/codoacodo.png" alt="" width="150px" >  </div>
+        <a class="nav-link active" aria-current="page" href="#" >La conferencia</a>
+        <a class="nav-link" href="#">Los oradores</a>
+        <a class="nav-link" href="#">El lugar y la fecha</a>
+        <a class="nav-link" href="#">Conviértete en orador</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true" style="color: green">Comprar tikets</a>
+       </ul>
+      </nav>
+   </header>
+   <!--CONFERENCIA-->
+   <div class="card bg-dark text-white">
+    <img src="./imagenes/ba1.jpg" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Conferencia en Buenos Aires</h5>
+      <p class="card-text">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra
+        comunidad el conocimiento y experiencia de los expertos que están creando el
+        futuro de internet. Van a conocer a miembros del evento, a otros estudiantes de
+        Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+      <p class="card-text">Last updated 3 mins ago</p>
+    </div>
+  </div>
+
+  <!--ORADORES-->
+    <h3 class="blockquote text-center" > CONOCE A LOS ORADORES</h3>
+   <div class="container">
+    <div class="card-group">
+      <div class="card">
+        <img src="./imagenes/steve.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <button type="button" class="btn btn-warning">Javascript</button>
+          <button type="button" class="btn btn-primary">React</button>
+          <h5 class="card-title">Steave Jobs</h5>
+          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa vel optio iure eius accusantium eveniet velit, impedit fuga est incidunt animi, nesciunt illo porro nulla. Cupiditate sapiente adipisci iste architecto iure mollitia minima minus iusto quae?</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./imagenes/bill.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <button type="button" class="btn btn-warning">Javascript</button>
+          <button type="button" class="btn btn-primary">React</button>
+          <h5 class="card-title">Bill Gates</h5>
+          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa vel optio iure eius accusantium eveniet velit, impedit fuga est incidunt animi, nesciunt illo porro nulla. Cupiditate sapiente adipisci iste architecto iure mollitia minima minus iusto quae?</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./imagenes/ada.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <button type="button" class="btn btn-secondary">Negocios</button>
+          <button type="button" class="btn btn-danger">Startups</button>
+          <h5 class="card-title">Ada Lovelace</h5>
+          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa vel optio iure eius accusantium eveniet velit, impedit fuga est incidunt animi, nesciunt illo porro nulla. Cupiditate sapiente adipisci iste architecto iure mollitia minima minus iusto quae?</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--honolulu-->
+    <div class="card mb-3" style="max-width: 1900px;" >
+      <div class="row">
+        <div class="col-6">
+          <img src="./imagenes/honolulu.jpg" class="img-fluid rounded-start" alt="..." width="1250px">
+        </div>
+        <div class="col-6"style="background-color: rgb(34, 32, 32)">
+          <div class="card-body"  >
+            <h5 class="card-title" style="color:blanchedalmond">Bs As - Octubre</h5>
+            <p class="card-text" style="color: blanchedalmond ">
+              Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km2 de superficie).</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- formulario-->
+<div class="text-center">
+ <h1 >CONVIERTETE EN UN ORADOR</h1>
+ <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+</div>
+
+<form class="needs-validation " novalidate >
+ 
+  <div class="form-row col mb-12 container text-center">
+    
+    <div class=" col-md-3">
+      <label for="validationTooltip01"></label>
+      <input type="text" class="form-control" id="validationTooltip01" value="Nombre" required>
+      <div class="valid-tooltip">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-3 ">
+      <label for="validationTooltip02"></label>
+      <input type="text" class="form-control" id="validationTooltip02" value="Apellido" required>
+      <div class="valid-tooltip">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-6 mb-12" >
+      <label for="validationTooltip03"></label>
+      <input type="text" class="form-control" id="validationTooltip03" value= "Sobre qué quieres hablar" required>
+      
+    </div>
+  
+  
+    
+    <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
+  </div>
+  
+</form>
+</div>
+<!-- footer-->
+<footer>
+
+  <div class="container col-mb-12" style="background-color:#214d67"  >
+  
+   <div class="row col-mb-12 text-center" >
+
+     <div class="col">
+     <p><button type="button" class="btn btn-link">Preguntas frecuentes</button></p> 
+     </div>
+
+     <div class="col">
+     <p><button type="button" class="btn btn-link">Contactanos</button></p> 
+     </div>
+
+     <div class="col">
+     <p> <button type="button" class="btn btn-link">Conferencias</button></p> 
+     </div>
+
+     <div class="col>">
+     <p> <button type="button" class="btn btn-link">Terminos y Condiciones</button></p> 
+     </div>
+
+     <div class="col">
+      <p><button type="button" class="btn btn-link">Privacidad</button></p> 
+     </div>
+
+     <div class="col">
+      <p><button type="button" class="btn btn-link">Estudiantes</button></p> 
+     </div>
+
+
+
+    </div>
+
+
+  </div>
+
+
+</footer>
+
+  </body>
+</html>
